@@ -1,6 +1,61 @@
 * {
-    margin: 0px;
+    margin: auto;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
 
+
+#rock, #paper, #scissors {
+    padding: 20px;
+    color: red;
+}
+
+h1 {
+    margin: auto;
+    text-transform: uppercase;
+    width: 80vw;
+    background-color: red;
+    text-align: center;
+}
+
+.scoreboard {
+    font-size: 1rem;
+    background-color: palegoldenrod;
+    text-align: center;
+}
+
+.scorebox-container {
+    display: flex;
+    width: 50vw;
+    background-color: black;
+    color: white;
+}
+
+.player-score, .comp-score {
+    font-size: 2rem;
+    background-color: darkblue;
+    padding: 20px;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+}
+
+.game-button:hover {
+     background-color: blue;
+}
+
+.commentary-container {
+    text-align: center;
+}
+
+.commentary {
+    background-color: gainsboro;
+}
+
+.reset {
+    padding: 10px;
+    margin-top: 20px;
+
+}
